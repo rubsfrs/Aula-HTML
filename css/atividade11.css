@@ -1,0 +1,127 @@
+/* CSS RESET */
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: verdana;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#container{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: aquamarine;
+    margin: auto; /* centraliza */
+}
+
+#cabecalho_pagina{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu_superior{
+    position: relative;
+    background-color: darkblue;
+    width: 100%;
+    height: 40px;
+    text-align: left;
+}
+
+#meio{
+    position: relative;
+    background-color: yellow;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#menu_lateral{
+    position: relative;
+    background-color: #CCCAAA; 
+    width: 20%;
+    height: 500px;
+}
+
+#miolo{
+    position: relative;
+    background-color: #FFCCFF;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cabecalho_miolo{
+    position: relative;
+    width: 95%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+#imagem{
+    position: relative;
+    background-color: #996600;
+    width: 95%;
+    height: 150px;
+}
+
+#miolo p{
+    position: relative;
+    background-color: #8cd8ef;
+    width: 95%;
+    height: 100px;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+}
+
+#caixa{
+    position: relative;
+    width: 95%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixinha{
+    position: relative;
+    width: 30%;
+    height: 130px;
+    background-color: #514e4e;
+}
+
+aside{
+    position: relative;
+    background-color: #FF00FF;
+    width: 20%;
+    height: 500px;
+}
+
+footer{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
