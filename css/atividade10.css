@@ -1,0 +1,115 @@
+/* CSS RESET */
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: Arial;
+}
+
+main{
+    position: relative;
+    width: 65%;
+    height: 690px;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#cabecalho{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color:#CCFF00;
+}
+
+#titulo_cabecalho{
+    position: relative;
+    font-family: Arial;
+    text-align: center;
+    top: 30px;
+    font-size: 30px;
+}
+
+#esquerdo{
+    position: relative;
+    width: 30%;
+    height: 74%;
+    background-color:#AAFFFF;
+    float: left;
+}
+
+#nav_esquerdo{
+    position: absolute;
+    width: 330px;
+    height: 220px;
+    left: 15px;
+    top: 25;
+    background-color: white;
+}
+
+#aside_esquerdo{
+    position: absolute;
+    width: 330px;
+    height: 240px;
+    left: 15px;
+    top: 260px;
+    background-color: white;
+}
+
+#direito{
+    position: relative;
+    width: 70%;
+    height: 74%;
+    background-color:#7C44FF;
+    float: right;
+}
+
+#caixa_article{
+    position: absolute;
+    width: 840px;
+    height: 500px;
+    background-color: #FCF1F1;
+    left: 10px;
+    top: 25px;
+}
+
+#titulo_article{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: #CCFFFF;
+    top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+
+#texto_direito{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: #CC6666;
+    top: 55px;
+}
+
+#imagem{
+    position: absolute;
+    width: 100%;
+    height: 260px;
+    background-color: #CCCCFF;
+    top: 215px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #330000;
+    clear: left;
+    color: white;
+}
