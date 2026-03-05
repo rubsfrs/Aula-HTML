@@ -1,0 +1,187 @@
+/* CSS RESET */
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: verdana;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#container{
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto; /* centraliza */
+}
+
+#cabecalho_pagina{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 50px;
+}
+
+#menu_superior{
+    position: relative;
+    background-color: darkblue;
+    width: 100%;
+    height: 40px;
+    text-align: left;
+}
+
+#meio{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#menu_lateral{
+    position: relative;
+    background-color: #999999;
+    width: 20%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+a{
+    font-family: arial;
+    padding: 12px;
+    color: white;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    text-align: left;
+}
+
+#miolo{
+    position: relative;
+    background-color: #FFF;
+    width: 60%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+}
+
+#cabecalho_miolo{
+    position: relative;
+    width: 95%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+#imagem{
+    position: relative;
+    width: 95%;
+    height: 350px;
+}
+
+#imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+#miolo p{
+    position: relative;
+    background-color: #CCFFFF;
+    width: 95%;
+    height: 100px;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+}
+
+#caixa{
+    position: relative;
+    width: 95%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#caixinha1{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #514e4e;
+}
+
+#caixinha1 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#caixinha2{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #514e4e;
+}
+
+#caixinha2 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#caixinha3{
+    position: relative;
+    width: 30%;
+    height: 200px;
+    background-color: #514e4e;
+}
+
+#caixinha3 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.caixinha{
+    position: relative;
+    width: 30%;
+    height: 130px;
+    background-color: #514e4e;
+}
+
+aside{
+    position: relative;
+    background-color: #FF00FF;
+    width: 20%;
+    height: 800px;
+}
+
+aside img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
