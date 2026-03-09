@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: verdana;
+    font-size: 12px; 
+}
+
+#container{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background-color: #BA8A8A;
+    margin: auto;
+}
+
+#limao{
+    position: relative;
+    width: 100%;
+    height: 140px;
+    background-color: #B3EA1D;
+}
+
+#vermelho{
+    position: relative;
+    width: 100%;
+    height: 310px;
+    background-color: #BA1211;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#rosa1{
+    position: relative;
+    width: 45%;
+    height: 250px;
+    background-color: #BA8A8A;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+#rosa2{
+    position: relative;
+    width: 45%;
+    height: 250px;
+    background-color: #BA8A8A;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+#ciano{
+    position: relative;
+    width: 100%;
+    height: 310px;
+    background-color: #80E0E0;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#branca1{
+    position: relative;
+    width: 20%;
+    height: 270px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#branca2{
+    position: relative;
+    width: 20%;
+    height: 270px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#branca3{
+    position: relative;
+    width: 20%;
+    height: 270px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#branca4{
+    position: relative;
+    width: 20%;
+    height: 270px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#laranja{
+    position: relative;
+    background-color: #BA5511;
+    width: 100%;
+    height: 310px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#amarelo{
+    position: relative;
+    background-color: #FFFF00;
+    width: 100%;
+    height: 310px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#azul{
+    position: relative;
+    width: 42%;
+    height: 270px;
+    background-color: #191973;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#verde{
+    position: relative;
+    width: 42%;
+    height: 270px;
+    background-color: #3EC3C2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    margin-top: 10px;
+}
